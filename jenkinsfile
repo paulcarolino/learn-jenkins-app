@@ -6,7 +6,7 @@ pipeline{
                 docker{
                     image 'node:latest'
                     reuseNode true
-]                }
+                }
             }
             steps{
                 sh '''
